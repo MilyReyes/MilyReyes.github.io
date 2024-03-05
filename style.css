@@ -1,0 +1,156 @@
+*{margin: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+header {
+    background-color: rgb(80, 166, 195); 
+    width: 100%; height: 100%;
+    font-size: 17px; 
+    color: rgb(232, 190, 190);
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 0px;}
+header img {
+    height: 120px;
+    border-color: #07704d;
+    border-style: dashed;}
+header ul li { 
+    display: inline;
+    justify-content: space-between; 
+    margin: 35px;
+    margin-top: 10cm;
+    list-style-type: none;
+    margin-block-start: 10em;
+    margin-block-end: 10em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    padding-inline-start: 40px;
+    text-decoration: none;
+}
+section h1{font-size: 27px;  
+    color: rgb(35, 106, 248); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+section h2 {font-size: 24px;  
+    color: rgb(7, 61, 169); 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    margin-inline-start: 10px;
+    margin-top: 10px;
+    margin-inline-start: 10px;
+    margin-top: 10px;
+    text-align: center;
+} 
+#experiencias {display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+    } 
+section p { 
+        text-align: justify; 
+        margin-inline-start: 15px;
+    } 
+section button{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.caja{ 
+        width: 90%; 
+        height:100%; 
+        display: flex; 
+        flex-direction: column; 
+        align-content: center; 
+        justify-content: flex-start; 
+        align-items: center; 
+    } 
+
+    .caja img {height: 199.925px;  
+    } 
+    .vinculos {width: 100%; 
+        height:100%; 
+        display: flex; 
+        flex-direction: column; 
+        align-content: center; 
+        justify-content: flex-start; 
+        align-items: center; 
+        background-color: bisque;
+    } 
+    #viaje { 
+        width: 90%; 
+        height:100%; 
+        display: flex; 
+        flex-direction: column; 
+        align-content: center; 
+        justify-content: flex-start; 
+        align-items: center; 
+        text-align: center;
+    } 
+    
+    #viaje img {height: 400px;  
+        align-content: center;
+        background-color: bisque;
+        align-items: center;
+        justify-content: center;
+    } 
+    body ul a {
+        text-decoration: none ;color: rgb(232, 190, 190)
+    }
+    .vinculos p {
+        display: block; 
+        margin-block-start: 10px; 
+        margin-block-end: 20px; 
+        margin-inline-start: 15px; 
+        margin-inline-end: 10px; 
+        align-content: center;
+} 
+.vinculos span {
+    display: block; 
+    margin-block-start: 0px; 
+    margin-block-end: 20px; 
+    margin-inline-start: 15px; 
+    margin-inline-end: 10px; 
+    align-content: center;
+} 
+.last h2 {
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+footer {background-color: rgb(80, 166, 195);  
+    width: 100%; height: 100%;  
+    font-size: 20px;  
+    color: rgb(232, 190, 190); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    display: flex;
+    flex-direction: row;
+    text-decoration-color:rgb(232, 190, 190) ;
+} 
+#contacto {padding: 45px;
+align-items: flex-end;
+margin-block-start: 5px; 
+        margin-block-end: 5px; 
+        margin-inline-start: 5px; 
+        margin-inline-end: 5px;
+        font-style: italic;
+        color: rgb(232, 190, 190);
+} 
+#newsletter {padding: 5px;
+    align-items: flex-end;
+    margin-block-start: 5px; 
+            margin-block-end: 5px; 
+            margin-inline-start: 5px; 
+            margin-inline-end: 5px;
+    } 
+footer img { height: 120px} 
+footer ul {
+    list-style-type: none;
+    text-decoration: none;
+} 
